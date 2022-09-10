@@ -1,20 +1,17 @@
 def print_linha1():
     print("+ - - - - + - - - - +")
 
-def print_linha2():
+def do_twice():
+    print("|         |         |")
     print("|         |         |")
 
 def print_grade():
     print_linha1()
-    print_linha2()
-    print_linha2()
-    print_linha2()
-    print_linha2()
+    do_twice()
+    do_twice()
     print_linha1()
-    print_linha2()
-    print_linha2()
-    print_linha2()
-    print_linha2()
+    do_twice()
+    do_twice()
     print_linha1()
 
 print_grade()
